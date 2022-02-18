@@ -26,5 +26,3 @@ function reveal(num) {
     d[num-1].className += " letter-reveal";
     console.log("Revealed letter " + num);
 }
-
-// document.getElementsByClassName("today")[0].innerHTML = "Today's wordle word (" + (242 + numberOfDays) + ") is:"

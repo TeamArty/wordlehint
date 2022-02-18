@@ -60,6 +60,33 @@ body, html {
     transition: background 0.3s ease 0.2s, color 0.2s ease 0.25s;
 }
 
+/* Navbar */
+.navbar {
+    transition: 300ms ease;
+}
+
+.navbar-nav a {
+    color: white;
+}
+
+.navbar-nav a:hover {
+    color: #e2e2e2;
+}
+.navbar-brand {
+    color: var(--reveal);
+}
+
+.navbar-brand:hover {
+    color: var(--reveal);
+}
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+
 /* Footer */
 footer {
     display: flex;
