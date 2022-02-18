@@ -1,0 +1,48 @@
+*:root {
+    --spoiler: #272729;
+    --reveal: #538d4e;
+    --bg-color: #121213;
+}
+
+body, html {
+    background-color: var(--bg-color);
+    color: white;
+    font: 'Roboto', sans-serif, arial, helvetica;
+}
+
+.page {
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.letter-2, .letter-3, .letter-4, .letter-5 {
+    margin-left: 20px;
+}
+
+.letter {
+    background: var(--spoiler);
+    color: transparent;
+    cursor: help;
+    user-select: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    height: 4.5rem;
+    width: 4.5rem;
+    transition: background 0.3s ease 0.2s, color 0.2s ease 0.25s;
+}
+
+.letterh1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+.letter-reveal {
+    background: var(--reveal);
+    color: inherit;
+    transition: background 0.3s ease 0.2s, color 0.2s ease 0.25s;
+}
